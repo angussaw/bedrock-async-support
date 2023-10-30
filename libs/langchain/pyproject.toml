@@ -397,6 +397,9 @@ omit = [
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.setuptools]
+py-modules = []
+
 [tool.pytest.ini_options]
 # --strict-markers will raise errors on unknown marks.
 # https://docs.pytest.org/en/7.1.x/how-to/mark.html#raising-errors-on-unknown-marks
